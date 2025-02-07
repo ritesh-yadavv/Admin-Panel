@@ -16,6 +16,7 @@ import PieChartOutlineOutlinedIcon from "@mui/icons-material/PieChartOutlineOutl
 import TimelineOutlinedIcon from "@mui/icons-material/TimelineOutlined";
 import MenuOutlinedIcon from "@mui/icons-material/MenuOutlined";
 import MapOutlinedIcon from "@mui/icons-material/MapOutlined";
+import Image from "../../assets/1.jpg";
 
 const Item = ({ title, to, icon, selected, setSelected }) => {
   const theme = useTheme();
@@ -96,7 +97,7 @@ const Sidebar = () => {
                   alt="profile-user"
                   width="100px"
                   height="100px"
-                  src={`https://media.licdn.com/dms/image/D4D03AQEFCwQcxXbckw/profile-displayphoto-shrink_200_200/0/1693287691573?e=1720051200&v=beta&t=qJMRMAcQ1bgMXTTMcNMTgAvPXjet5y_wI75uNfW9Xbs`}
+                  src={Image}
                   style={{ cursor: "pointer", borderRadius: "50%" }}
                 />
               </Box>
@@ -107,7 +108,7 @@ const Sidebar = () => {
                   fontWeight="bold"
                   sx={{ m: "10px 0 0 0" }}
                 >
-                  Akshay
+                  Ritesh
                 </Typography>
                 <Typography variant="h5" color={colors.greenAccent[500]}>
                   React Admin Page
